@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#containerInside {
+   
+    
+    
+}
+
+#containerInside {
+    display: inline-block;
+    min-width: 50vh;
+    min-height: 30vh;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#name {
+    margin-top: 10px;
+}
+
+#domainInfoForm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#domain {
+    margin-right: 10px;
+    min-height: 10vh;
+    min-height: 3vh;
+}
+
+button {
+    background-color: rgb(53, 53, 144);
+    color: #fff;
+    width: 8vh;
+    min-height: 3vh;
+}
+
+#result {
+   padding: 5px;
+}
+
+pre{
+    margin: 2vh;
+}
