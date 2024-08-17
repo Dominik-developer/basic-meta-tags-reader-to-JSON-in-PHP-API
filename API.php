@@ -1,4 +1,5 @@
 <?php
+/* domain info coloector API */
     function fetchDomainInfo($domain) {
         $curl = curl_init($domain);
 
@@ -16,7 +17,7 @@
 
             $titles = $doc->getElementsByTagName("title");
             if ($titles->length > 0) {
-                $info["titkle"] = $titles->item(0)->nodeValue;
+                $info["title"] = $titles->item(0)->nodeValue;
             }
 
             $metas = $doc->getElementsByTagName("meta");
